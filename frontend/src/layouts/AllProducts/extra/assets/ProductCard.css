@@ -1,0 +1,40 @@
+.card-container {
+  flex: 0 0 25%;
+  padding: 10px 20px;
+  margin: 0.5rem;
+  height: 500px;
+}
+
+.card-img-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-img {
+  max-width: 300px;
+  height: auto;
+}
+
+.card-text-block {
+  position: absolute;
+  bottom: 125px;
+}
+
+.btn-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 0.1rem 0;
+  bottom: 10px;
+  width: 85%;
+}
+
+.btn:first-child {
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 1024px) {
+  .card-container {
+    flex: 0 0 70%;
+  }
+}

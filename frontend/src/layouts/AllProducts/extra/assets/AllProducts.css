@@ -1,0 +1,20 @@
+.product-tile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.products-layout {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1024px) {
+  .products-layout {
+    flex-direction: column;
+  }
+
+  .product-tile {
+    padding: 20px 10px;
+  }
+}

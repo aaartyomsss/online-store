@@ -1,0 +1,9 @@
+#popover-basic {
+  width: 300px;
+}
+
+@media (max-width: 1024px) {
+  .shopping-cart-btn {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,52 @@
+.nav-bar {
+  border: 1px solid #dedede;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-item {
+  margin-left: 25px;
+}
+
+.nav-button {
+  margin-top: 5px;
+}
+
+@media (max-width: 1024px) {
+  .nav-item {
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .shopping-cart {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  .nav-button-text {
+    font-size: 12px;
+  }
+}

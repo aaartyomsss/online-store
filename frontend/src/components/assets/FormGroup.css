@@ -1,0 +1,13 @@
+.form-group {
+  padding: 10px 100px;
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-group-change-detail {
+  padding: 0;
+  margin-bottom: 20px;
+}
