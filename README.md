@@ -40,3 +40,12 @@ There are currently around 15 products in the database, but if you want to add m
 ```
 python manage.py create_dummy_products
 ```
+## Run the app
+In the frontend directory run
+```
+npm start
+```
+and for the backend 
+```
+python manage.py runserver
+```
